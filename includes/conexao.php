@@ -1,6 +1,6 @@
 <?php
     $hostname = 'localhost';
-    $username = 'roost';
+    $username = 'root';
     $password = '';
     $database = 'IFSP';
     $port     =  3307;
