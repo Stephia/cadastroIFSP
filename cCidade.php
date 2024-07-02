@@ -10,8 +10,7 @@
     echo "Nome: $nome<br>";
     echo "Estado: $estado<br>";
 
-    $sql = "INSERT INTO cidade (id, nome, estado)";
-    $sql .= " VALUES('".$id. "','".$nome."','".$estado."')";
+    $sql = "INSERT INTO cidade (id, nome, estado) VALUES('".$id. "','".$nome."','".$estado."')";
 
     echo $sql;
 
