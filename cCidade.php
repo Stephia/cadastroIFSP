@@ -22,5 +22,6 @@
     else{
         echo "<h2>Erro ao cadastrar!</h2>";
         echo mysqli_error($con);
+        
     }
 ?>
