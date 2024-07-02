@@ -12,7 +12,7 @@
 
         $sql = "SELECT * FROM cidade";
         $result = mysqli_query($con, $sql);
-        $row = mysqli_fetch_array($result);
+        //$row = mysqli_fetch_array($result);
     ?>
     <h1>Consulta de Cidades</h1>
     <a href="CadastroCidade.html">Cadastrar Nova Cidade</a>
