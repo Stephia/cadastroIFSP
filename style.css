@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff7eb3, #30e8bf);
+    display: flex;
+    flex-direction: column; /* Para alinhar o conteúdo em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: #ff4d6a;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+    background-color: #c50928; /* Cor do botão ao passar o mouse */
+}
+
+.button:first-child {
+    margin-right: 40px;
+}
+
+.button:last-child {
+    margin-left: 40px;
+}
