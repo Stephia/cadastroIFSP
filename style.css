@@ -1,11 +1,11 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(45deg, #ff7eb3, #30e8bf);
+    background: linear-gradient(45deg, #ff4d4f, #ff9d0a, #fcc01d);
     display: flex;
-    flex-direction: column; /* Para alinhar o conteúdo em coluna */
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
     height: 100vh;
 }
 
@@ -45,7 +45,7 @@ h2 {
 }
 
 .button {
-    background-color: #ff4d6a;
+    background-color: #ff4d4f;
     color: white;
     text-decoration: none;
     padding: 15px 30px;
@@ -58,7 +58,7 @@ h2 {
 
 .button:hover {
     transform: scale(1.05); /* Efeito de escala ao passar o mouse */
-    background-color: #c50928; /* Cor do botão ao passar o mouse */
+    background-color: #b61f22; /* Cor do botão ao passar o mouse */
 }
 
 .button:first-child {
