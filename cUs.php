@@ -13,32 +13,24 @@
         $nome = $_POST['nome'];
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-        $id = $_POST['id'];
+        $ativo = $_POST['ativo'];
+        $cidade = $_POST['cidade'];
 
-        echo "<h1>Dados da Cidade</h1>";
+        echo "<h1>Dados do Usuário</h1>";
         echo "Nome: $nome<br>";
-        echo "Estado: $estado<br>";
+        echo "Email: $email<br>";
+        echo "Cidade: $cidade<br>";
 
-        $sql = "INSERT INTO cidade (id, nome, estado) VALUES('".$id. "','".$nome."','".$estado."')";
+        $sql = "INSERT INTO Cliente (nome, email, senha, ativo, id_ci) VALUES('".$nome."','".$email."','".$senha."','".$ativo."', '".$cidade."')";
 
         echo $sql;
 
-        $result = mysqli_query($con, $sql);
-
-        if($result){
-            echo "<h2>Dados cadastrados com sucesso!</h2>";
-        }
-        else{
-            echo "<h2>Erro ao cadastrar!</h2>";
-            echo mysqli_error($con);
-            
-        }
     ?>
     <div>
-        <button type="submit"><a href="index.html">Voltar ao ínicio</a></button>
+        <button type="submit"><a href="OpcUs.html">Voltar ao inicio</a></button>
     </div>
     <div>
-        <button type="submit"><a href="CadastroCidade.html">Voltar</a></button>
+        <button type="submit"><a href="CadastroUs.html">Voltar</a></button>
     </div>
 </body>
 </html>
