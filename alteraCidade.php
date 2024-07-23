@@ -75,16 +75,36 @@
                     <option value="PE"
                         <?php echo $row['estado'] == "PE"? "selected" : ""?>>Pernambuco
                     </option>
-                    <option value="PI"<?php echo $row['estado'] == "PI"? "selected" : ""?>>Piauí</option>
-                    <option value="RJ"<?php echo $row['estado'] == "RJ"? "selected" : ""?>>Rio de Janeiro</option>
-                    <option value="RN"<?php echo $row['estado'] == "RN"? "selected" : ""?>>Rio Grande do Norte</option>
-                    <option value="RS"<?php echo $row['estado'] == "RS"? "selected" : ""?>>Rio Grande do Sul</option>
-                    <option value="RO"<?php echo $row['estado'] == "RO"? "selected" : ""?>>Rondônia</option>
-                    <option value="RR"<?php echo $row['estado'] == "RR"? "selected" : ""?>>Roraima</option>
-                    <option value="SC"<?php echo $row['estado'] == "SC"? "selected" : ""?>>Santa Catarina</option>
-                    <option value="SP"<?php echo $row['estado'] == "SP"? "selected" : ""?>>São Paulo</option>
-                    <option value="SE"<?php echo $row['estado'] == "SE"? "selected" : ""?>>Sergipe</option>
-                    <option value="TO"<?php echo $row['estado'] == "TO"? "selected" : ""?>>Tocantins</option>
+                    <option value="PI"
+                        <?php echo $row['estado'] == "PI"? "selected" : ""?>>Piauí
+                    </option>
+                    <option value="RJ"
+                        <?php echo $row['estado'] == "RJ"? "selected" : ""?>>Rio de Janeiro
+                    </option>
+                    <option value="RN"
+                        <?php echo $row['estado'] == "RN"? "selected" : ""?>>Rio Grande do Norte
+                    </option>
+                    <option value="RS"
+                        <?php echo $row['estado'] == "RS"? "selected" : ""?>>Rio Grande do Sul
+                    </option>
+                    <option value="RO"
+                        <?php echo $row['estado'] == "RO"? "selected" : ""?>>Rondônia
+                    </option>
+                    <option value="RR"
+                        <?php echo $row['estado'] == "RR"? "selected" : ""?>>Roraima
+                    </option>
+                    <option value="SC"
+                        <?php echo $row['estado'] == "SC"? "selected" : ""?>>Santa Catarina
+                    </option>
+                    <option value="SP"
+                        <?php echo $row['estado'] == "SP"? "selected" : ""?>>São Paulo
+                    </option>
+                    <option value="SE"
+                        <?php echo $row['estado'] == "SE"? "selected" : ""?>>Sergipe
+                    </option>
+                    <option value="TO"
+                        <?php echo $row['estado'] == "TO"? "selected" : ""?>>Tocantins
+                    </option>
                 </select>
             </div>
             <div>

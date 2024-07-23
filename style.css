@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(45deg, #ff4d4f, #ff9d0a, #fcc01d,);
+    background: linear-gradient(45deg, #ff4d4f, #ff9d0a, #fcc01d);
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -15,7 +15,7 @@ header {
 }
 
 h1 {
-    color: #fff;
+    color: rgb(218, 174, 174);
     font-size: 4em;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -25,7 +25,7 @@ main {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(240, 224, 224, 0.9);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
