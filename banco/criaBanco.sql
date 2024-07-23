@@ -10,7 +10,10 @@ CREATE TABLE Cidade(
 CREATE TABLE Cliente(
 	id 	      INT AUTO_INCREMENT,
     nome      VARCHAR(50) ,
-    id_ci   INT,
+    email     VARCHAR(50),
+    senha     VARCHAR(10),
+    ativo     BOOL,
+    id_ci     INT,
     PRIMARY KEY (id),
     CONSTRAINT FK_ClienteCidade FOREIGN KEY (id_ci) REFERENCES Cidade(id) );
 INSERT INTO Cidade VALUES
@@ -23,11 +26,11 @@ INSERT INTO Cidade VALUES
 SELECT * FROM Cidade WHERE estado = 'SP';
 
 INSERT INTO Cliente VALUES
-	(1, 'Aurora', 4),
-    (2, 'Breno', 3),
-    (3, 'Carolaine', 1),
-    (4, 'Dalberto', 5),
-    (5, 'Evellyn', 2);
+	(1, 'Aurora', 'aurorinha@gmail.com', '409094l0v3', false, 4),
+    (2, 'Breno', 'breninhodograu@gmail.com', '1234567890', true, 3),
+    (3, 'Carolaine', 'carolainess@hotmail.com', 'eu231a23nh4', true, 1),
+    (4, 'Dalberto', 'adalberto@yahoo.com.br', '4d4lb37t0', true, 5),
+    (5, 'Evellyn', 'xevellynx@hotmail.com', '^0n;[Q=69w', false, 2);
     
 SELECT * FROM Cliente WHERE id = 1;
 
